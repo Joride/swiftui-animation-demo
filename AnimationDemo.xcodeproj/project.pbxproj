@@ -11,6 +11,8 @@
 		A2E0E5492BDFD628008C741D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E0E5482BDFD628008C741D /* ContentView.swift */; };
 		A2E0E54B2BDFD629008C741D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E0E54A2BDFD629008C741D /* Assets.xcassets */; };
 		A2E0E54E2BDFD629008C741D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E0E54D2BDFD629008C741D /* Preview Assets.xcassets */; };
+		A2E0E5562BDFD667008C741D /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E0E5542BDFD667008C741D /* LevelView.swift */; };
+		A2E0E5572BDFD667008C741D /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E0E5552BDFD667008C741D /* GaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A2E0E5482BDFD628008C741D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2E0E54A2BDFD629008C741D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2E0E54D2BDFD629008C741D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2E0E5542BDFD667008C741D /* LevelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		A2E0E5552BDFD667008C741D /* GaugeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				A2E0E5462BDFD628008C741D /* AnimationDemoApp.swift */,
 				A2E0E5482BDFD628008C741D /* ContentView.swift */,
+				A2E0E5552BDFD667008C741D /* GaugeView.swift */,
+				A2E0E5542BDFD667008C741D /* LevelView.swift */,
 				A2E0E54A2BDFD629008C741D /* Assets.xcassets */,
 				A2E0E54C2BDFD629008C741D /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2E0E5492BDFD628008C741D /* ContentView.swift in Sources */,
+				A2E0E5572BDFD667008C741D /* GaugeView.swift in Sources */,
+				A2E0E5562BDFD667008C741D /* LevelView.swift in Sources */,
 				A2E0E5472BDFD628008C741D /* AnimationDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
